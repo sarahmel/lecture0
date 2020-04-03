@@ -6,14 +6,26 @@
 <body>
 	<h1>Page test pour Git</h1>
 		<p> Bienvenue sur ma page test pour Git </p>
-	<h2> Créer un clone </h2>
+	<h2> Git clone </h2>
 		<p> La première hose à faire est de créer un clone du fichier sur lequel on va travailler. C'est un repository. Dans l'invite de commande, on va dans le fichier où il y aura notre fichier git. (Rapelle cd Users => permet d'aller dans le dossier Users, puis cd sarah, puis cd Onedrive\Bureau\Git\Mon premier projet Git\)<br />
 		Puis on tape "git clone" suivi du lien qu'on a dans notre compte Git. </p>
-	<h2> Choisir les fichiers que l'on veut tracker </h2>
+	<h2> Git add </h2>
 		<p>La commande git add, permet de prendre en compte des changements dans les files que l'on va indiquer, à chaque fois qu'on veut faire un "commit", c'est à dire, à chaque fois que l'on veut sauvegarder une version sur Git.</p>
 		<p> Par exemple, si je veux sauver les différentes versions, à chaque fois que je le modifie, de cette page html, je vais écrire dans ma ligne de commande: git add hello.html.</p>
 		<p> Maintenant, à chaque fois que je vais faire des modifications, Git va enregistrer les versions. Cela peut marcher pour des fichiers html, mais également.py si je bosse sur python, etc... </p>
-	<h2>
+		<p> Le ou les fichiers modifiés (et déjà indexés) grâce à la commande add, sont alors "prêts à être commités", c'est-à-dire prêts à être inclus dans le prochain commit.</p>
+	<h2> Git commit </h2>
+		<p> Du point de vue du développeur qui utilise "git", l'évolution d'un projet est ainsi composé d'une succession de "commits", commentés, qui correspondent à autant de modifications des fichiers du projet, commentées par leur auteur.</p>
+
+		<p>Par comparaison avec l'état précédent du projet, un commit peut être considéré comme la matérialisation d'une série de modifications que l'on souhaite enregistrer dans le projet : d'un point de vue très "pratique", un commit peut être vu comme une étape de plus dans l'avancement d'un projet.</p>
+
+		<p>Un commit peut aussi bien consister en la modification d'un seul caractère, qu'en l'ajout d'une librairie complète au projet., cela ne dépend que de la manière de les utiliser !</p>
+	<h2> Git status </h2>
+		<p> Plutôt facile: en entrant la commande git status, on obtient le statut de notre git. </p>
+	<h2> Git push</h2>
+		<p>Maintenant, il faut envoyer ces changement sur Github pour les partager. On le fait grâce à la commande "git push". On nous demande d'entrer l'identifiant (sarahmel) et le mdp (@ch...8) </p>
+	<h2> Git pull</h2>
+		<p>Si je veux downloader une version sur laquelle quelqu'un d'uatre a travaillé, à partir de github, je vais utiliser la commande git pull</p>
 
 
 
