@@ -7,7 +7,7 @@
 	<h1>Page test pour Git</h1>
 		<p> Bienvenue sur ma page test pour Git </p>
 	<h2> Git clone </h2>
-		<p> La première hose à faire est de créer un clone du fichier sur lequel on va travailler. C'est un repository. Dans l'invite de commande, on va dans le fichier où il y aura notre fichier git. (Rapelle cd Users => permet d'aller dans le dossier Users, puis cd sarah, puis cd Onedrive\Bureau\Git\Mon premier projet Git\)<br />
+		<p> La première chose à faire est de créer un clone du fichier sur lequel on va travailler. C'est un repository. Dans l'invite de commande, on va dans le fichier où il y aura notre fichier git. (Rapelle cd Users => permet d'aller dans le dossier Users, puis cd sarah, puis cd Onedrive\Bureau\Git\Mon premier projet Git\)<br />
 		Puis on tape "git clone" suivi du lien qu'on a dans notre compte Git. </p>
 	<h2> Git add </h2>
 		<p>La commande git add, permet de prendre en compte des changements dans les files que l'on va indiquer, à chaque fois qu'on veut faire un "commit", c'est à dire, à chaque fois que l'on veut sauvegarder une version sur Git.</p>
@@ -26,6 +26,22 @@
 		<p>Maintenant, il faut envoyer ces changement sur Github pour les partager. On le fait grâce à la commande "git push". On nous demande d'entrer l'identifiant (sarahmel) et le mdp (@ch...8) </p>
 	<h2> Git pull</h2>
 		<p>Si je veux downloader une version sur laquelle quelqu'un d'uatre a travaillé, à partir de github, je vais utiliser la commande git pull</p>
+	<h2> Merge conflicts </h2>
+		<p> Parfois, quand on fait des changements simultanés avec des gens sur internet, il peut y avoir des merge conflicts. On a un message d'erreur qui apparaît: Merge conflict in "dossier" You need to fix the conflict and commit (pas mot à mot mais en gros). Si on va ensuite voir sur le github, ce qui est au dessus de HEAD, c'est mon changement. Il suffit d'enlever les lignes que l'on veut pas (la ligne HEAD, la ligne avec le nom du conflit + tout ce qu'on ne veut pas dans le code. On a résolu le merge conflict.</p>
+	<h2> Git log</h2>
+		<p> Donne la liste des commits, des auteurs et du temps du commit. C'est l'historique des commits. </p>
+	<h2> Git reset </h2>
+		<p> Pour revenir à un ancien commit </p>
+	<h2></h2>
+		<p> Exemple: <br />
+			<ul>
+				<li> git add hello.html : on a ajouté le fichier au git</li>
+				<li> git commit -m "Fix marge conflicts": là j'ai fait le commit que j'ai nommé "fix..." pour pouvoir le retrouver si besoin </li>
+				<li> git push : permet de pousser les changements vers le github, sinon les changements sont uniquement au niveau local.
+				<li>git log : permet de voir l'historique de tous les commits que j'ai faits.</li>
+				<li>git reflog: permet de voir l'historique des commits avec leur nom </li>
+
+
 
 
 
